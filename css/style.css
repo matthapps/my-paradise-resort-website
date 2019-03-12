@@ -198,3 +198,22 @@ p {
 #staff .staff-img {
     background: url('../img/staff.jpg') no-repeat center center/cover;
 }
+
+/* Section: Awards */
+#awards .items {
+    display: flex;
+    padding: 1rem;
+}
+
+#awards .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#awards .items .item i {
+    background: #AFBEE1;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
